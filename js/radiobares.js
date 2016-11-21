@@ -20,6 +20,12 @@ $(document).ready(function(){
 		clickEvent = false;
 	});
 
+	$('a').on('mouseover', function(){
+		if ($(this).hasClass('dropdown-toggle')) {
+			$(this).click();
+		}
+	});
+
 
 })
 
