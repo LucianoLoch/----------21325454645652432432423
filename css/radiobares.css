@@ -510,3 +510,12 @@
     margin-left:3px; 
 }
 .podcast{width:365px; height:250px; float:right; display:compact; overflow:hidden;}
+
+
+#button-bars  {
+    color: #fff;
+}
+
+#button-bars i {
+    font-size: 20px;
+}
