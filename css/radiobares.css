@@ -493,13 +493,15 @@
     list-style:none; 
     overflow:hidden;
      -webkit-padding-start: 0px;
-    }
+}
+
 .topparceiros ul li{
     height:65px; 
     overflow:hidden; 
     background:#252525; 
     border-radius:4px; 
-    margin-bottom:3px;}
+    margin: 8px;
+}
 
 
 /* SOCIAL */
@@ -517,6 +519,7 @@
 }
 
 #button-bars i {
+<<<<<<< HEAD
     font-size: 20px;
 }
 
@@ -547,3 +550,14 @@
     margin-bottom: 10px;
   }
 }
+=======
+    font-size: 15px;
+}
+
+@media(max-width:767px) {
+    #myCarousel .carousel-inner .item.active .carousel-caption {
+        display: none;
+    }
+}
+
+>>>>>>> origin/master
