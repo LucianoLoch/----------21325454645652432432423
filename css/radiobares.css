@@ -1,0 +1,512 @@
+/* Barra Rádio */ 
+#top {
+  background:rgba(0,0,0,0.8); 
+  border-bottom:3px solid #FB9B00;
+  padding: 10px 0;
+}
+
+#top .offer .btn-success {
+  background:white;
+  border-color: white;
+  border-radius: 0px;
+  color: rgba(0,0,0,0.8); 
+}
+#top .offer .btn-success strong{
+    color: rgba(0,0,0,0.8); 
+}
+
+#top .offer {
+  color: #fff;
+}
+#top .offer .btn {
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  #top .offer {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 991px) {
+  #top {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+#top a {
+  color: #fff;
+}
+#top ul.menu {
+  padding-top: 5px;
+  margin: 0;
+  text-align: right;
+  font-size: 12px;
+  list-style: none;
+}
+@media (max-width: 991px) {
+  #top ul.menu {
+    text-align: center;
+  }
+}
+#top ul.menu > li {
+  display: inline-block;
+}
+#top ul.menu > li a {
+  color: #eeeeee;
+}
+#top ul.menu > li + li:before {
+  content: "|\00a0";
+  padding: 0 5px;
+  color: #f7f7f7;
+}
+#top ul.menu > .active {
+  color: #999999;
+}
+
+#top ul.menu > li a i {
+  font-size: 20px;
+}
+
+#top a#oucaaovivo{
+    display:block; 
+    position:relative; 
+    left:50%; 
+    margin-left:-95px; 
+    background:url(../img/oucaaovivo.png) center top no-repeat;
+    width:190px;
+     height:25px;
+     -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;}
+#top a#oucaaovivo:hover{background-position:center bottom;}
+
+/* NAV BAR*/
+
+.navbar-inverse{
+    background:  rgba(0,0,0,0.8); 
+    background-color: rgba(0,0,0,0.8);
+    border-color:  rgba(0,0,0,0.2);  
+    border-radius: 0px;
+} 
+
+.navbar-buttons, .navbar-toggle{
+    color: black;
+    border-color: black;
+}
+.dropdown-menu>li>a {
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+}
+.dropdown-menu>li>a:hover {
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+}
+
+.navbar .yamm-content ul li:hover {
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+}
+
+.redes-socias .fa {
+   font-size: 25px;
+}
+.navbar .yamm-content h5 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: dotted 1px;
+}
+@media (max-width: 767px) {
+  .navbar .yamm-content h5, {
+    font-size: 14px;
+  }
+  .lista-redes-sociais li {
+      display: inline-block;
+      text-align: center;
+  }
+  .redes-socias .fa {
+    font-size: 14px;
+  }
+}
+
+.navbar .yamm-content ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar .yamm-content ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 4px 0;
+}
+.navbar .yamm-content ul li a {
+  font-size: 12px;
+  display: block;
+}
+.navbar .yamm-content ul li a:hover {
+  background-color: rgba(0,0,0,0.2); 
+  text-decoration: none;
+}
+.navbar .yamm-content .banner {
+  margin-bottom: 10px;
+}
+.navbar ul.nav > li > a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Fim Rádio Top */
+.title-news h1 {
+    border-bottom:1px solid #c8c8c8; 
+    font:26px 'Lato', Tahoma, Geneva, sans-serif; 
+    color:#333; font-weight:300; 
+    text-transform:uppercase; 
+    margin-bottom:5px;
+}
+.title-news h1 span{
+    border-bottom:3px solid #FB9B00;    
+}
+
+.title-news h1 span strong{
+    font-weight:900;
+}
+.mais a{
+    font:13px 'Lato', Tahoma, Geneva, sans-serif; font-weight:100 bold; 
+    color:#999; 
+    text-decoration:none; 
+    font-style:italic; 
+    -webkit-transition:all 0.5s ease-in-out; 
+    -moz-transition:all 0.5s ease-in-out;
+}
+.mais a:hover{
+    text-decoration:underline;
+}
+
+/* Eventos */ 
+.eventos ul{
+    width:100%; 
+    float:left; 
+    list-style:none;
+    -webkit-padding-start: 0px;
+}
+.eventos ul li{
+    float:left; 
+    padding-bottom:5px; 
+    margin-bottom:5px; 
+    border-bottom:1px dotted #c8c8c8; 
+    position:relative;
+}
+.eventos ul li #imagem{
+    width:95px; 
+    height:95px; 
+    float:left; 
+    border-radius:4px; 
+    margin-right:5px; 
+    background:#252525;
+}
+.eventos ul li #imagem img{
+    opacity:0.5;
+}
+.eventos ul li a h2{
+    display:block; 
+    width:300px;
+    float:left;
+    font:24px 'Lato', Tahoma, Geneva, sans-serif; 
+    color:#000; font-weight:300; 
+    text-decoration:none;
+}
+.eventos ul li a h2 span{
+    display:block; 
+    font:14px 'Lato', Tahoma, Geneva, sans-serif; 
+    font-weight:900; 
+    color:#000; 
+    text-transform:uppercase;
+}
+.eventos ul li a .mais{
+    width:300px; 
+    position:absolute; 
+    text-align:right; 
+    right:0; 
+    bottom:5px; 
+    text-decoration:none; 
+    font:14px 'Lato', Tahoma, Geneva, sans-serif; 
+    color:#333; 
+    font-style:italic;
+}
+.eventos ul li:hover a .mais{
+    text-decoration:underline;
+    }
+.eventos ul li:hover #imagem img{
+    opacity:1;
+}
+.eventos ul li:hover a h2, .eventos ul li:hover a h2 span, .eventos ul li:hover a .mais{
+    color:#845300;
+}
+.eventos .anuncie{width:100%; 
+    height:75px; 
+    float:left; 
+    display:block; 
+    overflow:hidden;
+}
+
+/* PROMOÇÕES */
+
+.promocoes{
+    float:left; 
+    display:block; 
+    overflow:hidden; 
+
+}
+.promocoes ul{
+    width:100%; 
+    float:left; 
+    overflow:hidden;
+    -webkit-padding-start: 0px;
+}
+.promocoes ul li{
+    width:100%; 
+    height:69px; 
+    float:left; 
+    display:block; 
+    overflow:hidden; 
+    padding-bottom:7px; 
+    margin-bottom:7px; 
+    border-bottom:1px dotted #c8c8c8;
+    text-align: left!important;
+}
+
+.promocoes ul li.destaque{
+    height:222px;
+}
+.promocoes ul li.destaque .imagem{
+    width:100%;
+    height:150px; 
+    float:left; 
+    display:block; 
+    overflow:hidden; 
+    border-radius:4px; 
+    border:none;
+}
+.promocoes ul li.destaque #imagem img{
+    margin-top:-10px;
+}
+.promocoes ul li.destaque a h2{
+    font:20px 'Lato', Tahoma, Geneva, sans-serif; 
+    font-weight:300; color:#000; 
+    text-decoration:none; 
+    float:left; width:100%;
+}
+.promocoes ul li.destaque a h2 span{
+    font-size:12px; width:100%; 
+    font-weight:900; display:block; 
+    text-transform:uppercase; 
+    margin-bottom:2px; 
+    margin-top:2px;
+}
+.promocoes ul li:hover a h2, .promocoes ul li:hover a span{
+    color:#7F5000;
+}
+.promocoes ul li #imagem{
+    float:left; 
+    display:block; 
+    overflow:hidden; 
+    border-left:3px solid #FB9B00; 
+    border-radius:0 4px 4px 0; 
+    margin-right:5px;}
+.promocoes ul li .imagem.efeito img{
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+}
+.promocoes ul li:hover .imagem.efeito img{
+    -webkit-filter:sepia(1) hue-rotate(20deg) saturate(3);
+    -moz-filter:sepia(1) hue-rotate(20deg) saturate(3);-ms-filter:sepia(1) hue-rotate(20deg) saturate(3);
+    -o-filter:sepia(1) hue-rotate(20deg) saturate(3); 
+    filter:sepia(1) hue-rotate(20deg) saturate(3);
+}
+.promocoes ul li a span{
+    float:left; 
+    width:252px; 
+    text-decoration:none; 
+    color:#000; 
+    font:14px 'Lato', Tahoma, Geneva, sans-serif; 
+    font-weight:400; 
+    margin-top:4px;}
+
+
+/* TOP FIVE */
+.topmusic{
+    display:block; 
+    overflow:hidden;
+}
+.topmusic ul{
+    width:100%; 
+    float:left; 
+    list-style:none;
+    -webkit-padding-start: 0px;
+}
+.topmusic ul li{
+    width:100%; 
+    height:70px; 
+    float:left; 
+    display:block; 
+    overflow:hidden; 
+    padding-bottom:5px; 
+    margin-bottom:5px; 
+    border-bottom:1px dotted #c8c8c8; 
+    position:relative;
+}
+.topmusic ul li #imagem{
+    position:relative; 
+    width:75px; height:70px; 
+    float:left; display:block; 
+    margin-right:5px;}
+
+.topmusic ul li #imagem #foto{position:absolute; bottom:0; left:0; width:65px; height:65px; border-radius:100px; overflow:hidden; z-index:9994;}
+.topmusic ul li #imagem #foto img{width:65px;}
+.topmusic ul li #imagem #pos{background:#FB9B00; position:absolute; right:0; top:0; z-index:9995; border-radius:100px; padding:3px 9px 6px 9px; font:16px 'Lato', Tahoma, Geneva, sans-serif; color:#fff; font-weight:700; text-shadow:0 0 5px rgba(0,0,0,0.7);}
+.topmusic ul li #dados{width:180px; height:70px; float:left; display:block; overflow:hidden; margin-left:5px;}
+.topmusic ul li #dados span#artista{text-transform:uppercase; font:16px 'Lato', Tahoma, Geneva, sans-serif; font-weight:300; color:#000; display:block; margin-top:10px; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out;}
+.topmusic ul li #dados span#musica{text-transform:capitalize; font:13px 'Lato', Tahoma, Geneva, sans-serif; font-weight:700; color:#000; display:block; margin-top:3px; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out;}
+.topmusic ul li #ouvir{width:25px; height:25px; display:block; overflow:hidden; position:absolute; right:0; top:50%; margin-top:-15px;}
+.topmusic ul li #ouvir a{background:url(../images/sprite-play.jpg) left top no-repeat; width:25px; height:25px; overflow:hidden; display:block;}
+.topmusic ul li #ouvir a:hover{background-position:right top;}
+.topmusic ul li #ouvir a.parar{background:none;}
+.topmusic ul li:hover #imagem #foto{bottom:3px;}
+.topmusic ul li:hover #dados span#artista{color:#845300;}
+.topmusic ul li:hover #dados span#musica{color:#9F6400;}
+
+
+/* ANUNCIOS */
+.anuncios{width:100%; height:100%; float:left; display:block; overflow:hidden; margin-top:15px;}
+.anuncios #left{width:30%; height:185px; float:left; display:block; overflow:hidden; background:#252525; padding:5px;}
+.anuncios #left a{float:left;}
+.anuncios #left span{font:10px Tahoma, Geneva, sans-serif; color:#fff; letter-spacing:2px; display:block; padding-top:0;}
+.anuncios #right{width:70%; height:185px; display:block; overflow:hidden; padding:5px; background:#252525;}
+.anuncios #right div{width:70%; height:185x; display:block; overflow:hidden; margin:0; padding:0;}
+
+/* LANÇAMENTOS */
+.lancamentos{
+    display:block; 
+    overflow:hidden;
+}
+.lancamentos ul{
+    width:100%; 
+    float:left; 
+    overflow:hidden; 
+    -webkit-padding-start: 0px;
+}
+
+.lancamentos ul li {
+    width:100%;
+    height: 69px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    border-bottom: 1px dotted#c8c8c8;
+}
+.lancamentos ul li.destaque {
+    height: 100px;
+}
+.lancamentos ul li.destaque#imagem {
+    width:100% ;
+    height:150px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+    border: none;
+}.lancamentos ul li.destaque a h2 {
+    font: 20px 'Lato', Tahoma, Geneva, sans-serif;
+    font-weight: 300;
+    color: #000; 
+    text-decoration:none; 
+    float:left; 
+    width:100%;
+}
+.lancamentos ul li.destaque a h2 span{
+    font-size:12px; 
+    width:100%; 
+    font-weight:900; 
+    display:block; 
+    text-transform:uppercase; 
+    margin-bottom:2px; 
+    margin-top:2px;
+}
+.lancamentos ul li:hover a h2,.promocoes ul li:hover a span {
+    color: #7F5000;
+}
+.lancamentos ul li #imagem {
+    width: 117px;
+    height: 69px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    border-left: 3px solid#FB9B00;
+    border-radius: 0 4px 4px 0;
+    margin-right: 5px;
+}
+
+.lancamentos ul li #imagem.efeito img{
+    -webkit-transition:all 0.5s ease-in-out; 
+    -moz-transition:all 0.5s ease-in-out;
+}
+.lancamentos ul li:hover #imagem.efeito img{
+    -webkit-filter:sepia(1) hue-rotate(20deg) saturate(3);
+    -moz-filter:sepia(1) hue-rotate(20deg) saturate(3);
+    -ms-filter:sepia(1) hue-rotate(20deg) saturate(3);
+    -o-filter:sepia(1) hue-rotate(20deg) saturate(3); 
+    filter:sepia(1) hue-rotate(20deg) saturate(3);
+}
+.lancamentos ul li a span{
+    text-decoration:none; 
+    color:#000; 
+    font:19px 'Lato', Tahoma, Geneva, sans-serif; 
+    font-weight:300; 
+    margin-top:2px;
+}
+.lancamentos ul li a span strong{font-weight:900; font-size:14px; display:block; padding-bottom:2px; text-transform:uppercase;}
+.lancamentos ul li:last-child{height:auto; border-bottom:none;}
+.lancamentos ul li:last-child a{float:right; font:14px 'Lato', Tahoma, Geneva, sans-serif; color:#666; font-style:italic; font-weight:100; text-decoration:none;}
+.lancamentos ul li:last-child a:hover{text-decoration:underline;}
+
+
+/* ENQUETE */
+.enquete{
+    margin-left:10px;
+}
+.enquete p#loader{font:18px 'Lato', Tahoma, Geneva, sans-serif; color:#000; font-weight:100; width:100%; float:left; display:block; padding-top:100px; text-align:center;}
+.enquete #pollcontainer{width:400px; height:250px; float:left; display:block; overflow:hidden; position:relative;}
+.enquete #pollcontainer p.pollques{font:19px 'Lato', Tahoma, Geneva, sans-serif; color:#000; width:100%; font-weight:300; float:left; display:block; overflow:hidden; margin-top:5px; margin-bottom:15px;}
+.enquete #pollcontainer #formcontainer{float:left; display:block; font:14px 'Lato', Tahoma, Geneva, sans-serif; color:#000; font-weight:400;}
+.enquete #pollcontainer #formcontainer p{display:block; padding:4px 0;}
+.enquete #pollcontainer #formcontainer input#btn_votar{float:left; border:0; text-transform:uppercase; background:#FB9B00; font:16px 'Lato', Tahoma, Geneva, sans-serif; color:#fff; font-weight:700; padding:10px 19px; cursor:pointer; border-radius:3px; overflow:hidden; position:absolute; bottom:3px; left:3px;}
+.enquete #pollcontainer #formcontainer input#btn_votar:hover{background:#DD8A00;}
+.enquete #pollcontainer p#result{position:absolute; bottom:5px; right:8px;}
+.enquete #pollcontainer p#result a{text-decoration:none; font:13px 'Lato', Tahoma, Geneva, sans-serif; color:#000; font-weight:700;}
+.enquete #pollcontainer p#result a:hover{text-decoration:underline;}
+.enquete #pollcontainer .option{float:left; font:14px 'Lato', Tahoma, Geneva, sans-serif; color:#000; font-weight:400; display:block; padding:4px 0; width:100%;}
+.enquete #pollcontainer .option #bar{height:10px; background:#FB9B00;}
+.enquete #pollcontainer p#total{position:absolute; bottom:5px; right:8px; font:14px 'Lato', Tahoma, Geneva, sans-serif; color:#333; font-weight:300; font-style:italic; width:390px; border-top:1px dotted #999; padding-top:5px; display:block; text-align:right;}
+
+
+.topparceiros ul{
+    list-style:none; 
+    overflow:hidden;
+     -webkit-padding-start: 0px;
+    }
+.topparceiros ul li{
+    height:65px; 
+    overflow:hidden; 
+    background:#252525; 
+    border-radius:4px; 
+    margin-bottom:3px;}
+
+
+/* SOCIAL */
+.facebook{
+    border-bottom:1px solid #aaa;
+}
+.weloveinsta{
+    margin-left:3px; 
+}
+.podcast{width:365px; height:250px; float:right; display:compact; overflow:hidden;}
